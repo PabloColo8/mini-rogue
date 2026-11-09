@@ -2,7 +2,7 @@
 
 Roguelike 2D de acción top-down hecho en **Unity 6** (6000.4.6f1) con C#, desarrollado como proyecto para el parcial de **Programación 1 (UTN)**.
 
-🎮 **Jugalo en itch.io:** _(link a itch.io)_
+🎮 **Jugalo en itch.io:** [pablocolo.itch.io/mini-rogue](https://pablocolo.itch.io/mini-rogue)
 
 ## Características
 
