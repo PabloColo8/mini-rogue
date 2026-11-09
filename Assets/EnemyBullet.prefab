@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7017876735458342845
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1535731011936204294, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_Name
+      value: EnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535731011936204294, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_TagString
+      value: EnemyBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282822481833402869, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892840761926542802, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892840761926542802, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892840761926542802, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6737759912427105725, guid: 030e962996c927742ba9725b164358c8, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1535731011936204294, guid: 030e962996c927742ba9725b164358c8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7205279107315652475}
+  m_SourcePrefab: {fileID: 100100000, guid: 030e962996c927742ba9725b164358c8, type: 3}
+--- !u!1 &8373461104654467515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1535731011936204294, guid: 030e962996c927742ba9725b164358c8, type: 3}
+  m_PrefabInstance: {fileID: 7017876735458342845}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-7205279107315652475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373461104654467515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b22e59b2e90d2f041b40c38c9e877330, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  damage: 0
